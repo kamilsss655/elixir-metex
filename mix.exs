@@ -21,8 +21,9 @@ defmodule Metex.Mixfile do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:httpoison, "~> 0.9.0"},
-      {:json, "~> 0.3.0"}
+      {:httpoison, "~> 0.13.0"},
+      {:json, "~> 1.0.2"},
+      {:hackney, "== 1.8.0", override: true}
     ]
   end
 end
