@@ -17,6 +17,14 @@ iex(7)> flush
 :ok
 ```
 
+# Config
+
+You need to create file config/secrets.exs with openweathermap API key as follows:
+```
+use Mix.Config
+config :metex, API_KEY: "XXXX"
+```
+
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
